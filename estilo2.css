@@ -1,0 +1,49 @@
+body {
+    /* fondo con una imagen */
+    background:url(Fondo/fondo%20huellas%203.jpg);
+    /* para que el fondo no se mueva */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: dodgerblue;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1,5;
+    margin: 0 auto;
+    max-width: 800px;
+}
+h1, h2 {
+    /* coloca una sombra al texto */
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.img2 {
+    /* para pocicionar la imagen a la derecha */
+    float: left;
+    width="250"; 
+    height="300";
+}
+a {
+    /* quita el subrayado del hipervinculo */
+    text-decoration: none;
+    /* aumenta distancia entre hipervinculos segun las manillas del reloj */
+    margin: 10px 5px;
+    /* aumenta una espaciado arriba del hipervinculo */
+    display: inline-block;
+    font-size: 20px;
+    background: dodgerblue;
+    padding: 5px 5px;
+    /* coloca una sombra al cuadro del hipervinculo */
+    box-shadow: 5px 5px 5px 3px blue;
+}
+a:link{
+    /* cambia el color de la letra al presionar el hipervinculo */
+    color: black;
+}
+a:active{
+    /* cambia el color del cuadro cuando se presiona el hipervinculo */
+    background: orange;
+}
+a:hover{
+    /* reduce la sombra del cuadro del hipervinculo */
+    box-shadow: 0px 2px 0px blue;
+}

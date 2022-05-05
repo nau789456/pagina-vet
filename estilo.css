@@ -1,0 +1,65 @@
+body {
+    /*realiza cambios a toda la pagina*/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);/*aplica un efecto de sombra*/
+    color: blue;/* color de letra */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* tipo de letra */
+    font-size: 16px;/* tamaño de letra */
+    line-height: 1.5;/* espacio de interlineado */
+    margin: 0 auto;/* tamaño de margen izquierdo, derecho, alto y bajo*/
+    max-width: 800px;/* ancho maximo */
+    padding: 0.5em 1em 0.5em; /* tamaño de margen interno */
+    text-align: center;/* aliniacion del texto */
+}
+img {
+    /* coloca un borde a todas las imagenes */
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+}
+.img {
+    /*posiciona la imagen a la parte izquierda de la pagina*/
+    float: left; 
+    width: 35%;
+    height: 35%;    
+}
+.img2 {
+    /*posiciona la imagen a la parte izquierda de la pagina*/
+    float: right; 
+    width: 30%;
+    height: 30%;    
+}
+h1 {
+    /*realiza modificaciones al tituto de nuestra pagina*/
+    color: black;
+    font-size: 40px;
+    font-family: 'Georgia', cursive;
+    font-weight: negrita;
+}
+h2 {
+    /*realiza modificaciones a los subtitulos de nuestra pagina*/
+    color: black;
+    font-size: 35px;
+    font-family: 'Georgia', cursive;
+    font-weight: negrita;
+    }
+p {
+    /*realiza modificaciones a los parrafos de nuestra pagina*/
+    color: green;
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+    font-weight: normal; 
+}
+a:link {
+    /*cambia el color del texto del hipervinculo a color azul*/ 
+    color: blue;
+}
+a:hover {
+    /* coloca un regtangulo de color al hipervinculo */
+    text-decoration-line: underline;/* subraya el texto del hipervinvulo*/
+    background: green; /*coloca el regtangulo de color verde*/ 
+    color: black; /*cambia el color del texto a negro cuando el cursor esta en el hipernviculo*/
+}

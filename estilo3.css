@@ -1,0 +1,69 @@
+html{
+background-image: lienea-gradient(270deg,rgb(230,233,233)0%,rgb(216,221,221)100%);
+}
+body{
+background:url(Fondo/fondo%20huellas.jpg);
+box-shadow:0 0 2px rgba(0,0,0,0.06);
+color:black;
+    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width:  800px;
+    padding:  2em 2em 4em;
+}
+.contenedor{
+    height: 300px;
+    width: 300px;
+    margin: inherit;
+    -webkit-perspective:700;
+}
+.carta{
+    height: 300px;
+    width: 3s00px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.carta:hover{
+    transform: rotateY(180deg);
+}
+.lado{
+    height: 300px;
+    width: 300px;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.frente{
+    background: red;
+}
+.atras{
+    background: green;
+    transform:rotateY(180deg);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+div{
+    color: black;
+    font-size: 25px;
+    font-family: 'Bahiana', cursive;
+    font-weight: 2px;
+    text-align: center;
+}
+a:hover{
+    text-decoration-line: underline;
+    background: green;
+    color: #abbd59;
+}
+a{
+    font-size: 15px;
+    font-family: 'Bahiana', cursive;
+     font-weight: 2px;
+    text-align: center;
+    color: black;
+    text-decoration:none;
+    margin: 10px 20px 10px 0px;
+    padding: 5px 20px;
+}
